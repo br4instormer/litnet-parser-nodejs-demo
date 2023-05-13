@@ -1,0 +1,28 @@
+{
+  "name": "litnet-parser-nodejs-demo",
+  "version": "1.0.0",
+  "description": "Books parser from litnet.com",
+  "main": "dist/main.js",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": "^18.16"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/async": "^3.2.20",
+    "@types/node": "^20.1.4",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "axios": "^1.4.0",
+    "axios-retry": "^3.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
